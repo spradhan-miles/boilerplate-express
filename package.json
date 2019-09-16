@@ -1,17 +1,31 @@
 {
-	"name": "fcc-learn-node-with-express",
-	"version": "0.1.0",
-	"dependencies": {
-		"express": "^4.14.0",
-		"body-parser": "^1.15.2",
-		"cookie-parser": "^1.4.3",
-		"fcc-express-bground": "https://github.com/Em-Ant/fcc-express-bground-pkg.git"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "4.4.5"
-	}
+  "name": "fcc-learn-node-with-express",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.17.1",
+    "fcc-express-bground": "git+https://github.com/Em-Ant/fcc-express-bground-pkg.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "description": "Suhit test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spradhan-miles/boilerplate-express.git"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spradhan-miles/boilerplate-express/issues"
+  },
+  "homepage": "https://github.com/spradhan-miles/boilerplate-express#readme"
 }
